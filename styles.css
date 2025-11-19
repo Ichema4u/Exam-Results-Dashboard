@@ -1,0 +1,96 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Header Section */
+h1 {
+  text-align: center;
+  color: #222;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Student Info Box */
+.student-info {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 80%;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+}
+
+/* Table Section */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Performance Summary */
+.summary {
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.summary p {
+  margin: 8px 0;
+}
+
+.note {
+  text-align: center;
+  color: #555;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .student-info, .summary {
+    width: 100%;
+  }
+
+  table {
+    font-size: 14px;
+  }
+}
